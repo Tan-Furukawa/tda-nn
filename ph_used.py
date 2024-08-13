@@ -3,9 +3,7 @@ import numpy as np
 import phase_field_2d_ternary.matrix_plot_tools as mplt
 import matplotlib.pyplot as plt
 
-
 from phase_field_2d_ternary.phase_field import PhaseField2d3c
-
 
 class PhaseFieldBreakByInterfaceEnergy(PhaseField2d3c):
     def __init__(

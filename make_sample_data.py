@@ -3,14 +3,14 @@ import numpy as np
 from ph_used import PhaseFieldBreakByInterfaceEnergy
 import random
 from numpy.typing import NDArray
-from tda_phase_field.random_samplig import (
+from tda_for_phase_field.random_samplig import (
     random_sampling_from_matrices,
     npMap,
     select_specific_phase,
 )
+import tda_for_phase_field.tda as tda
 from phase_field_2d_ternary.matrix_plot_tools import Ternary
 import matplotlib.pyplot as plt
-import tda_phase_field.tda as tda
 from phase_field_2d_ternary import PhaseField2d3c
 from combine import random_make_parameter
 
@@ -65,9 +65,9 @@ for p in parameter_generator:
             record=True,
         )
         phase_field.dtime = 0.003
-        phase_field.nprint = 5000
+        phase_field.nprint = 100000
         phase_field.nsave = 15000
-        phase_field.nstep = 50000
+        phase_field.nstep = 60001
         phase_field.start()
     except:
         continue
