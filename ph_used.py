@@ -22,6 +22,7 @@ class PhaseFieldBreakByInterfaceEnergy(PhaseField2d3c):
         L23: float = -1,
         record: bool = False,
         stop_if_error: bool = True,
+        save_dir_name: str = "result"
     ) -> None:
         super().__init__(
             w12,
@@ -37,6 +38,7 @@ class PhaseFieldBreakByInterfaceEnergy(PhaseField2d3c):
             L23,
             record,
             stop_if_error,
+            save_dir_name,
         )
         self.threshold = threshold
 
