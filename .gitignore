@@ -1,6 +1,11 @@
-result
-summary/*
+src/result
+src/result_const_c0_033333
+src/__pycache__
+src/summary/*
+
 __pycache__
 .mypy_cache
-tash
-result_const_c0_033333
+
+tash/*
+
+test/__pycache__

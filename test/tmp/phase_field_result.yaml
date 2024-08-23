@@ -1,0 +1,778 @@
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-32-22
+  file_list:
+  - - ph_result/output_2024-08-08-19-32-22/con1_1.npy
+    - ph_result/output_2024-08-08-19-32-22/con2_1.npy
+  - - ph_result/output_2024-08-08-19-32-22/con1_15000.npy
+    - ph_result/output_2024-08-08-19-32-22/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-32-22/con1_24719.npy
+    - ph_result/output_2024-08-08-19-32-22/con2_24719.npy
+  information:
+    L12: -1.180392092239521
+    L13: -1.385531819367553
+    L23: -0.5534632952622267
+    Nx: 128
+    Ny: 128
+    c10: 0.3716015688189449
+    c20: 0.3983973922582952
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 24719
+    k11: 11.738457424072019
+    k12: 5.491240696768843
+    k22: 15.074265551184306
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.1513597619533504
+    w13: 3.140473233075064
+    w23: 4.713640452508887
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-35-07
+  file_list:
+  - - ph_result/output_2024-08-08-19-35-07/con1_1.npy
+    - ph_result/output_2024-08-08-19-35-07/con2_1.npy
+  - - ph_result/output_2024-08-08-19-35-07/con1_10002.npy
+    - ph_result/output_2024-08-08-19-35-07/con2_10002.npy
+  information:
+    L12: -1.2107674832682558
+    L13: -1.123011718706073
+    L23: -1.473587323700167
+    Nx: 128
+    Ny: 128
+    c10: 0.3454523141370458
+    c20: 0.30232515961551304
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 10002
+    k11: 9.911017448162085
+    k12: 3.0697406222966235
+    k22: 12.79021342615439
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.9844704784249005
+    w13: 2.0037527125310204
+    w23: 2.7040094564989103
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-37-37
+  file_list:
+  - - ph_result/output_2024-08-08-19-37-37/con1_1.npy
+    - ph_result/output_2024-08-08-19-37-37/con2_1.npy
+  - - ph_result/output_2024-08-08-19-37-37/con1_15000.npy
+    - ph_result/output_2024-08-08-19-37-37/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-37-37/con1_30000.npy
+    - ph_result/output_2024-08-08-19-37-37/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-37-37/con1_45000.npy
+    - ph_result/output_2024-08-08-19-37-37/con2_45000.npy
+  - - ph_result/output_2024-08-08-19-37-37/con1_60000.npy
+    - ph_result/output_2024-08-08-19-37-37/con2_60000.npy
+  information:
+    L12: -1.3227151484939623
+    L13: -0.7877927164683576
+    L23: -0.6458466039978077
+    Nx: 128
+    Ny: 128
+    c10: 0.39815104237053306
+    c20: 0.2343271636118716
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 60000
+    k11: 14.854529402682196
+    k12: 3.8641451303984597
+    k22: 8.63956380277273
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.2442765891705845
+    w13: 2.892048748298583
+    w23: 3.685612426750772
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-36-00
+  file_list:
+  - - ph_result/output_2024-08-08-19-36-00/con1_1.npy
+    - ph_result/output_2024-08-08-19-36-00/con2_1.npy
+  - - ph_result/output_2024-08-08-19-36-00/con1_15000.npy
+    - ph_result/output_2024-08-08-19-36-00/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-36-00/con1_18380.npy
+    - ph_result/output_2024-08-08-19-36-00/con2_18380.npy
+  information:
+    L12: -0.9499059653608966
+    L13: -0.170063385905312
+    L23: -1.983873325534021
+    Nx: 128
+    Ny: 128
+    c10: 0.3705718059976287
+    c20: 0.3167236563910192
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 18380
+    k11: 13.4865978413278
+    k12: 2.6492568135266126
+    k22: 9.441721722715958
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.9513486893160294
+    w13: 2.3712399845853116
+    w23: 2.613584961587644
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-16-40
+  file_list:
+  - - ph_result/output_2024-08-08-19-16-40/con1_1.npy
+    - ph_result/output_2024-08-08-19-16-40/con2_1.npy
+  - - ph_result/output_2024-08-08-19-16-40/con1_13396.npy
+    - ph_result/output_2024-08-08-19-16-40/con2_13396.npy
+  information:
+    L12: -0.25585943464946714
+    L13: -1.6038579133765698
+    L23: -1.8829142716443483
+    Nx: 128
+    Ny: 128
+    c10: 0.24457154623817026
+    c20: 0.22558109031389395
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 13396
+    k11: 11.570987462338156
+    k12: 5.929124069848356
+    k22: 10.994224741830934
+    noise: 0.1
+    nprint: 5000
+    nstep: 50000
+    ttime: 0.0
+    w12: 2.331510827049371
+    w13: 4.648643857536618
+    w23: 3.445696596128547
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-30-52
+  file_list:
+  - - ph_result/output_2024-08-08-19-30-52/con1_1.npy
+    - ph_result/output_2024-08-08-19-30-52/con2_1.npy
+  information:
+    L12: -1.713353621227384
+    L13: -0.5913389936865081
+    L23: -0.4710640193362028
+    Nx: 128
+    Ny: 128
+    c10: 0.2792911861587866
+    c20: 0.2580515260938342
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 11.570110454459513
+    k12: 3.6312876028359398
+    k22: 14.31560872237769
+    noise: 0.1
+    nprint: 5000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.227290214179527
+    w13: 4.457239046641789
+    w23: 4.608437059875918
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-49-49
+  file_list:
+  - - ph_result/output_2024-08-08-19-49-49/con1_1.npy
+    - ph_result/output_2024-08-08-19-49-49/con2_1.npy
+  - - ph_result/output_2024-08-08-19-49-49/con1_15000.npy
+    - ph_result/output_2024-08-08-19-49-49/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-49-49/con1_30000.npy
+    - ph_result/output_2024-08-08-19-49-49/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-49-49/con1_45000.npy
+    - ph_result/output_2024-08-08-19-49-49/con2_45000.npy
+  - - ph_result/output_2024-08-08-19-49-49/con1_60000.npy
+    - ph_result/output_2024-08-08-19-49-49/con2_60000.npy
+  information:
+    L12: -1.329314292080394
+    L13: -0.059367800857830444
+    L23: -1.3877297545876466
+    Nx: 128
+    Ny: 128
+    c10: 0.23901509913212315
+    c20: 0.3153899068746626
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 60000
+    k11: 14.210641520301024
+    k12: 7.12868585708572
+    k22: 14.491344821112584
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 3.329947588833453
+    w13: 4.210495616177411
+    w23: 2.696921142979985
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-31-19
+  file_list:
+  - - ph_result/output_2024-08-08-19-31-19/con1_1.npy
+    - ph_result/output_2024-08-08-19-31-19/con2_1.npy
+  information:
+    L12: -1.5036244488100494
+    L13: -0.1561221372172219
+    L23: -1.123800547782845
+    Nx: 128
+    Ny: 128
+    c10: 0.25099916017878793
+    c20: 0.3452742339200769
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 12.456539786676732
+    k12: 2.6262997113448185
+    k22: 15.353510103474502
+    noise: 0.1
+    nprint: 5000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.693699074764674
+    w13: 4.484575411773842
+    w23: 2.5966680148534054
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-20-09-31
+  file_list:
+  - - ph_result/output_2024-08-08-20-09-31/con1_1.npy
+    - ph_result/output_2024-08-08-20-09-31/con2_1.npy
+  information:
+    L12: -0.25504694473235245
+    L13: -1.6150348924744589
+    L23: -1.8304571705541863
+    Nx: 128
+    Ny: 128
+    c10: 0.35020435212893747
+    c20: 0.2934047629432206
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 12.851018299937916
+    k12: 6.976328636928498
+    k22: 13.08494602824209
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.583606257044215
+    w13: 4.71925472162944
+    w23: 2.710175884560787
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-31-13
+  file_list:
+  - - ph_result/output_2024-08-08-19-31-13/con1_1.npy
+    - ph_result/output_2024-08-08-19-31-13/con2_1.npy
+  information:
+    L12: -1.6642679247759629
+    L13: -0.827437630860042
+    L23: -1.7660939230014274
+    Nx: 128
+    Ny: 128
+    c10: 0.34345290542068463
+    c20: 0.36532226575882754
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 10.683432677224781
+    k12: 5.063067337587328
+    k22: 13.205981434997224
+    noise: 0.1
+    nprint: 5000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.5244996935705606
+    w13: 4.312792382631377
+    w23: 2.8853754646175354
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-43-38
+  file_list:
+  - - ph_result/output_2024-08-08-19-43-38/con1_1.npy
+    - ph_result/output_2024-08-08-19-43-38/con2_1.npy
+  information:
+    L12: -1.7496600621565344
+    L13: -1.6619569826309721
+    L23: -0.5137310554295851
+    Nx: 128
+    Ny: 128
+    c10: 0.2688718074249304
+    c20: 0.32781926239026743
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 13.30474403679924
+    k12: 4.787838651087446
+    k22: 10.039136534705417
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.345412950994996
+    w13: 4.197763386031653
+    w23: 2.1371444522880476
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-43-03
+  file_list:
+  - - ph_result/output_2024-08-08-19-43-03/con1_1.npy
+    - ph_result/output_2024-08-08-19-43-03/con2_1.npy
+  information:
+    L12: -1.2494662422351301
+    L13: -1.3241025382929588
+    L23: -0.6117278439297622
+    Nx: 128
+    Ny: 128
+    c10: 0.2806026389178446
+    c20: 0.2930757915749749
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 12.465521665980154
+    k12: 7.2837204267992135
+    k22: 9.472663487233753
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.1808265538054794
+    w13: 4.973720652976432
+    w23: 4.897550755355189
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-44-25
+  file_list:
+  - - ph_result/output_2024-08-08-19-44-25/con1_1.npy
+    - ph_result/output_2024-08-08-19-44-25/con2_1.npy
+  information:
+    L12: -0.6879175820739354
+    L13: -1.6783822041616618
+    L23: -1.241729611908631
+    Nx: 128
+    Ny: 128
+    c10: 0.3712144272693353
+    c20: 0.2472593910660476
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 14.274786950265366
+    k12: 7.334429343162988
+    k22: 15.929285635136498
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 3.1772512135910036
+    w13: 4.6991376155907805
+    w23: 4.309595882231407
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-20-07-56
+  file_list:
+  - - ph_result/output_2024-08-08-20-07-56/con1_1.npy
+    - ph_result/output_2024-08-08-20-07-56/con2_1.npy
+  - - ph_result/output_2024-08-08-20-07-56/con1_15000.npy
+    - ph_result/output_2024-08-08-20-07-56/con2_15000.npy
+  - - ph_result/output_2024-08-08-20-07-56/con1_16475.npy
+    - ph_result/output_2024-08-08-20-07-56/con2_16475.npy
+  information:
+    L12: -0.5691331456197806
+    L13: -1.8818299120509463
+    L23: -0.2300973717911594
+    Nx: 128
+    Ny: 128
+    c10: 0.32082376820805675
+    c20: 0.20575030192851598
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 16475
+    k11: 8.741121233336031
+    k12: 3.5558552123121894
+    k22: 10.094016281826514
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.1280170953480653
+    w13: 3.5277914911517314
+    w23: 4.113067572793527
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-55-29
+  file_list:
+  - - ph_result/output_2024-08-08-19-55-29/con1_1.npy
+    - ph_result/output_2024-08-08-19-55-29/con2_1.npy
+  - - ph_result/output_2024-08-08-19-55-29/con1_15000.npy
+    - ph_result/output_2024-08-08-19-55-29/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-55-29/con1_30000.npy
+    - ph_result/output_2024-08-08-19-55-29/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-55-29/con1_45000.npy
+    - ph_result/output_2024-08-08-19-55-29/con2_45000.npy
+  - - ph_result/output_2024-08-08-19-55-29/con1_60000.npy
+    - ph_result/output_2024-08-08-19-55-29/con2_60000.npy
+  information:
+    L12: -1.594955368056901
+    L13: -1.646466001451993
+    L23: -1.876672920652914
+    Nx: 128
+    Ny: 128
+    c10: 0.3756890966030132
+    c20: 0.2997839242187229
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 60000
+    k11: 14.530250709683
+    k12: 7.0016194466173385
+    k22: 11.620068388066805
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.5132916495762814
+    w13: 2.0890656858520016
+    w23: 3.545137658379786
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-32-04
+  file_list:
+  - - ph_result/output_2024-08-08-19-32-04/con1_1.npy
+    - ph_result/output_2024-08-08-19-32-04/con2_1.npy
+  information:
+    L12: -0.43941738744735925
+    L13: -0.9819377369263584
+    L23: -0.31634304051468676
+    Nx: 128
+    Ny: 128
+    c10: 0.21538708219473426
+    c20: 0.3834668915189743
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 12.249038310885155
+    k12: 4.9072568097024645
+    k22: 8.293529444240535
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.5971676525225122
+    w13: 4.341211798599791
+    w23: 4.926904211600709
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-28-42
+  file_list:
+  - - ph_result/output_2024-08-08-19-28-42/con1_1.npy
+    - ph_result/output_2024-08-08-19-28-42/con2_1.npy
+  - - ph_result/output_2024-08-08-19-28-42/con1_15000.npy
+    - ph_result/output_2024-08-08-19-28-42/con2_15000.npy
+  information:
+    L12: -0.1485095775140779
+    L13: -0.14901959409527454
+    L23: -1.8669528487072728
+    Nx: 128
+    Ny: 128
+    c10: 0.3335304155601476
+    c20: 0.34489451042845753
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 15000
+    k11: 11.854295741304078
+    k12: 5.428443981575657
+    k22: 8.505682998071544
+    noise: 0.1
+    nprint: 5000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.292983518061719
+    w13: 4.641122344920678
+    w23: 3.432737313942437
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-43-58
+  file_list:
+  - - ph_result/output_2024-08-08-19-43-58/con1_1.npy
+    - ph_result/output_2024-08-08-19-43-58/con2_1.npy
+  information:
+    L12: -1.00899997416472
+    L13: -1.812863617191582
+    L23: -0.37839151274223615
+    Nx: 128
+    Ny: 128
+    c10: 0.39714946909357257
+    c20: 0.39695652468975956
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 10.412032357235912
+    k12: 3.62858822556757
+    k22: 13.560849370687059
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.886912924685306
+    w13: 4.6705613505235615
+    w23: 4.845750471899917
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-23-14
+  file_list:
+  - - ph_result/output_2024-08-08-19-23-14/con1_1.npy
+    - ph_result/output_2024-08-08-19-23-14/con2_1.npy
+  - - ph_result/output_2024-08-08-19-23-14/con1_15000.npy
+    - ph_result/output_2024-08-08-19-23-14/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-23-14/con1_30000.npy
+    - ph_result/output_2024-08-08-19-23-14/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-23-14/con1_45000.npy
+    - ph_result/output_2024-08-08-19-23-14/con2_45000.npy
+  - - ph_result/output_2024-08-08-19-23-14/con1_60000.npy
+    - ph_result/output_2024-08-08-19-23-14/con2_60000.npy
+  information:
+    L12: -0.6833269666910526
+    L13: -1.6267966988570146
+    L23: -0.5023862826516545
+    Nx: 128
+    Ny: 128
+    c10: 0.2003502318168967
+    c20: 0.21952548289259863
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 60000
+    k11: 14.565685490985684
+    k12: 3.9393065859752348
+    k22: 9.956036584529112
+    noise: 0.1
+    nprint: 5000
+    nstep: 60001
+    ttime: 0.0
+    w12: 3.311793266746432
+    w13: 4.128579818808285
+    w23: 3.1085068757491348
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-20-02-40
+  file_list:
+  - - ph_result/output_2024-08-08-20-02-40/con1_1.npy
+    - ph_result/output_2024-08-08-20-02-40/con2_1.npy
+  - - ph_result/output_2024-08-08-20-02-40/con1_15000.npy
+    - ph_result/output_2024-08-08-20-02-40/con2_15000.npy
+  - - ph_result/output_2024-08-08-20-02-40/con1_30000.npy
+    - ph_result/output_2024-08-08-20-02-40/con2_30000.npy
+  - - ph_result/output_2024-08-08-20-02-40/con1_45000.npy
+    - ph_result/output_2024-08-08-20-02-40/con2_45000.npy
+  - - ph_result/output_2024-08-08-20-02-40/con1_60000.npy
+    - ph_result/output_2024-08-08-20-02-40/con2_60000.npy
+  information:
+    L12: -1.8776682939568734
+    L13: -1.7730131126620574
+    L23: -0.20188242113506427
+    Nx: 128
+    Ny: 128
+    c10: 0.34123873432712415
+    c20: 0.29661689903320126
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 60000
+    k11: 11.909026183770125
+    k12: 3.910231126141717
+    k22: 12.46689177510569
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 2.879878307979542
+    w13: 3.0287936906721105
+    w23: 3.3719608371654366
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-34-38
+  file_list:
+  - - ph_result/output_2024-08-08-19-34-38/con1_1.npy
+    - ph_result/output_2024-08-08-19-34-38/con2_1.npy
+  information:
+    L12: -0.6753496817043776
+    L13: -1.0585441240309303
+    L23: -1.3470714366201013
+    Nx: 128
+    Ny: 128
+    c10: 0.2517563941129309
+    c20: 0.2205172803062942
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 9.348525049733066
+    k12: 7.927277269059001
+    k22: 13.234581659982718
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.959333330357893
+    w13: 3.304514405877395
+    w23: 4.4025333424613144
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-17-55
+  file_list:
+  - - ph_result/output_2024-08-08-19-17-55/con1_1.npy
+    - ph_result/output_2024-08-08-19-17-55/con2_1.npy
+  - - ph_result/output_2024-08-08-19-17-55/con1_15000.npy
+    - ph_result/output_2024-08-08-19-17-55/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-17-55/con1_30000.npy
+    - ph_result/output_2024-08-08-19-17-55/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-17-55/con1_45000.npy
+    - ph_result/output_2024-08-08-19-17-55/con2_45000.npy
+  information:
+    L12: -1.9258281662355785
+    L13: -1.6019239711523046
+    L23: -0.9019279665113995
+    Nx: 128
+    Ny: 128
+    c10: 0.32264164909248183
+    c20: 0.2795737069830243
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 45000
+    k11: 8.622846233660011
+    k12: 4.449900685119895
+    k22: 13.947671930323647
+    noise: 0.1
+    nprint: 5000
+    nstep: 50000
+    ttime: 0.0
+    w12: 3.4232625819687854
+    w13: 2.526568575740883
+    w23: 3.8842874819248547
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-44-44
+  file_list:
+  - - ph_result/output_2024-08-08-19-44-44/con1_1.npy
+    - ph_result/output_2024-08-08-19-44-44/con2_1.npy
+  - - ph_result/output_2024-08-08-19-44-44/con1_15000.npy
+    - ph_result/output_2024-08-08-19-44-44/con2_15000.npy
+  - - ph_result/output_2024-08-08-19-44-44/con1_30000.npy
+    - ph_result/output_2024-08-08-19-44-44/con2_30000.npy
+  - - ph_result/output_2024-08-08-19-44-44/con1_45000.npy
+    - ph_result/output_2024-08-08-19-44-44/con2_45000.npy
+  - - ph_result/output_2024-08-08-19-44-44/con1_55199.npy
+    - ph_result/output_2024-08-08-19-44-44/con2_55199.npy
+  information:
+    L12: -0.1573236307178396
+    L13: -1.4020793525039565
+    L23: -0.16303912056690595
+    Nx: 128
+    Ny: 128
+    c10: 0.2529039859455825
+    c20: 0.2936338202140682
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 55199
+    k11: 8.921932645952932
+    k12: 2.2070131441881684
+    k22: 9.245328318396032
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 3.769793410600002
+    w13: 4.240457655351905
+    w23: 4.022584691092998
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-55-14
+  file_list:
+  - - ph_result/output_2024-08-08-19-55-14/con1_1.npy
+    - ph_result/output_2024-08-08-19-55-14/con2_1.npy
+  information:
+    L12: -1.2740001974213733
+    L13: -0.423025451619226
+    L23: -1.6002100161385147
+    Nx: 128
+    Ny: 128
+    c10: 0.3914689898100817
+    c20: 0.2686372450651241
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 8.409200842030305
+    k12: 6.640355705242823
+    k22: 11.539758289327782
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.353483018150347
+    w13: 4.025401188018694
+    w23: 2.402084017380834
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-43-20
+  file_list:
+  - - ph_result/output_2024-08-08-19-43-20/con1_1.npy
+    - ph_result/output_2024-08-08-19-43-20/con2_1.npy
+  information:
+    L12: -1.0286793972864998
+    L13: -0.8091929910973759
+    L23: -0.5619680926316419
+    Nx: 128
+    Ny: 128
+    c10: 0.3461611394802123
+    c20: 0.20757873802961158
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 13.008747533003088
+    k12: 4.701072765941044
+    k22: 14.195821877478533
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.675873725566246
+    w13: 4.769706246043889
+    w23: 2.942037245606392
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-19-43-10
+  file_list:
+  - - ph_result/output_2024-08-08-19-43-10/con1_1.npy
+    - ph_result/output_2024-08-08-19-43-10/con2_1.npy
+  information:
+    L12: -1.568091052510735
+    L13: -1.1069673779683455
+    L23: -0.7869274283775496
+    Nx: 128
+    Ny: 128
+    c10: 0.3359937159070849
+    c20: 0.31284480934381165
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 1
+    k11: 14.442543278717089
+    k12: 6.165103842674677
+    k22: 15.687225352368099
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.894711011882592
+    w13: 4.620564182983365
+    w23: 2.075763584190242
+- dir_name: /home/tan/Documents/work/tda-nn/test/ph_result/output_2024-08-08-20-01-00
+  file_list:
+  - - ph_result/output_2024-08-08-20-01-00/con1_1.npy
+    - ph_result/output_2024-08-08-20-01-00/con2_1.npy
+  - - ph_result/output_2024-08-08-20-01-00/con1_15000.npy
+    - ph_result/output_2024-08-08-20-01-00/con2_15000.npy
+  - - ph_result/output_2024-08-08-20-01-00/con1_19222.npy
+    - ph_result/output_2024-08-08-20-01-00/con2_19222.npy
+  information:
+    L12: -0.422749369657506
+    L13: -1.0776245533993687
+    L23: -0.4876785061263118
+    Nx: 128
+    Ny: 128
+    c10: 0.3334738566589495
+    c20: 0.357167131848406
+    dtime: 0.003
+    dx: 1.0
+    dy: 1.0
+    istep: 19222
+    k11: 12.529510854888434
+    k12: 5.114127806360517
+    k22: 8.703833972748871
+    noise: 0.1
+    nprint: 100000
+    nstep: 60001
+    ttime: 0.0
+    w12: 4.969958570976232
+    w13: 2.4648651773130217
+    w23: 2.8291941886432843
