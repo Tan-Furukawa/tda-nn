@@ -47,9 +47,7 @@ print(f'\nTest accuracy: {test_acc:.4f}')
 # テスト画像を取得
 # output = model(tf.keras.Input(tf.convert_to_tensor(img_array)))
 # model.input
-
 # res = model.predict(x_test[0:1])
-
 # 最後の畳み込み層と出力層の名前を指定
 
 

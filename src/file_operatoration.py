@@ -47,10 +47,21 @@ def extract_directory_information(dir_path: str):
 
 if __name__ == "__main__":
     import numpy as np
-    dir_path = "result"
-    directory_info = extract_directory_information(dir_path)
-    res = yaml.dump(directory_info)
-    save_str("tash/result_summary.yaml", res)
+    import random
+    directory_info1 = extract_directory_information(dir_path="result")
+    directory_info2 = extract_directory_information(dir_path="result_12000")
+
+    directory_info = directory_info1 + directory_info2
+    random.shuffle(directory_info)
+
+
+    #%%
+
+
+    res = yaml.dump(directory_info1)
+    # save_str("tash/result_summary.yaml", res)
+    save_str("summary/result_summary.yaml", res)
+    #%%
 
     for i, file in enumerate(directory_info):
         if i > 100:

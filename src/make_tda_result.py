@@ -3,12 +3,12 @@ import numpy as np
 from classify_phase import determine_three_phase
 import copy
 from tda_for_phase_field import SelectPhaseFromSamplingMatrix, PersistentDiagram
+import re
 
-# from tda_for_phase_field.random_sampling import (
-#     random_sampling_from_matrices,
-#     npMap,
-#     select_specific_phase,
-# )
+from tda_for_phase_field.random_sampling import (
+    npMap,
+    npFilter
+)
 
 import tda_for_phase_field.tda as tda
 import matplotlib.pyplot as plt
@@ -42,13 +42,35 @@ def make_minidata(ph_result_path:str = "result", save_as: str="summary/result_su
     save_str(save_as, res2)
     #-------------------------------------------
 
-# make_minidata()
-#%%
+def extract_number_from_filename(filename):
+    # 正規表現で 'con1_' と '.npy' の間の数字を抽出
+    match = re.search(r'con1_(\d+)\.npy', filename)
+    if match:
+        return int(match.group(1))
+    else:
+        return None
 
-datas = read_yaml("summary/result_summary_mini.yaml")
+
+def filter_data(data):
+    d = data["file_list"]
+
+    if len(d) == 1:
+        return False
+    else:
+        k = extract_number_from_filename(d[-1][0])
+        if k == 120000 or k == 60000:
+            return False
+        else:
+            return True
+
+datas = read_yaml("summary/result_summary.yaml")
+datas = npFilter(filter_data, datas)
+
+
 # datas = read_yaml("summary/result_summary.yaml")
 datas_update = copy.deepcopy(datas)
 output_file_name = "result_tda2"
+#%%
 create_directory(f"summary/{output_file_name}")
 
 total_len = len(datas)
@@ -60,7 +82,7 @@ reshape_size_hom1 = 30
 
 
 for i, data in enumerate(datas):
-    if i % 1000 == 0:
+    if i % 100 == 0:
         print(f"progress: {int(i*100 / total_len)}%")
     print(data["file_list"][-1][0])
     con1 = np.load(data["file_list"][-1][0])
@@ -96,25 +118,26 @@ for i, data in enumerate(datas):
     file_name_hom1 = f"summary/{output_file_name}/" + generate_unique_filename()
     np.save(file_name_hom1, hom1)
 
-    # datas_update[i]["persistent_img_path_hom0"] = file_name_hom0
-    # datas_update[i]["persistent_img_path_hom1"] = file_name_hom1
+    datas_update[i]["persistent_img_path_hom0"] = file_name_hom0
+    datas_update[i]["persistent_img_path_hom1"] = file_name_hom1
 
-    w = 30
+    # w = 30
 
 
-    print("-------------------------------")
-    print(i)
-    if i == 36 or i == 43 or i == 44:
-        Ternary.imshow3(con1, con2)
-        plt.savefig(f"../gallery/persistent_img/ternary_exsolution_{i}.pdf")
-        # plt.show()
-        plt.imshow(hom0.reshape(30, 1, 3))
-        plt.savefig(f"../gallery/persistent_img/hom0_diagram_{i}.pdf")
-        # plt.savefig("gallery/persistent_img/ternary_exsolution.pdf")
-        # plt.show()
-        plt.imshow(np.transpose(hom1, (1, 0, 2)), origin="lower")
-        plt.savefig(f"../gallery/persistent_img/hom1_diagram_{i}.pdf")
-        # plt.show()
+    # print("-------------------------------")
+    # print(i)
+    # if i == 36 or i == 43 or i == 44:
+    # Ternary.imshow3(con1, con2)
+    # plt.show()
+    #     plt.savefig(f"../gallery/persistent_img/ternary_exsolution_{i}.pdf")
+    #     # plt.show()
+    #     plt.imshow(hom0.reshape(30, 1, 3))
+    #     plt.savefig(f"../gallery/persistent_img/hom0_diagram_{i}.pdf")
+    #     # plt.savefig("gallery/persistent_img/ternary_exsolution.pdf")
+    #     # plt.show()
+    #     plt.imshow(np.transpose(hom1, (1, 0, 2)), origin="lower")
+    #     plt.savefig(f"../gallery/persistent_img/hom1_diagram_{i}.pdf")
+    #     # plt.show()
 
     # print(len(x1))
     # plt.imshow(hom11)
@@ -131,7 +154,7 @@ for i, data in enumerate(datas):
     #     datas_update[i] = None
     #     continue
 #%%
-save_str("summary/used_in_NN_mini.yaml",yaml_dump(list(filter(lambda x: x != None, datas_update))))
+save_str("summary/used_in_NN.yaml",yaml_dump(list(filter(lambda x: x != None, datas_update))))
 #%%
 
 d = read_yaml("summary/used_in_NN.yaml")[0]
