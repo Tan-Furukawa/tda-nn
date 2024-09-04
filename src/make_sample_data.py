@@ -59,7 +59,7 @@ for p in parameter_generator:
             L23=p["L23"],
             record=True,
             # save_dir_name = "result_const_c0_033333"
-            save_dir_name = "result_12000"
+            save_dir_name = "summary/raw_data/result_12000"
         )
         phase_field.dtime = 0.003
         phase_field.nprint = 100000
