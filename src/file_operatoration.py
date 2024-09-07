@@ -82,6 +82,7 @@ if __name__ == "__main__":
 
     directory_info1 = extract_directory_information(
         dir_path="summary/raw_data/result_2d_fix", n_components="binary"
+        # dir_path="../gallery/data/w_eta_param", n_components="binary"
     )
 
     # directory_info1 = extract_directory_information(dir_path="result")

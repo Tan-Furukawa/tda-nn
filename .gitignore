@@ -11,3 +11,6 @@ __pycache__
 tash/*
 
 test/__pycache__
+
+gallery/data
+natural_data

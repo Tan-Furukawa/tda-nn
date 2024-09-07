@@ -128,18 +128,63 @@ save_str(
 )
 # %%
 
-d = read_yaml("summary/used_in_NN_2d.yaml")[0]
+# # d = read_yaml("summary/used_in_NN_2d_fix.yaml")
+# from itertools import product
+
+# import time
+# import numpy as np
+# from sklearn import datasets
+# from scipy.stats import multivariate_normal as mvn
+# import matplotlib.pyplot as plt
+
+# from ripser import Rips
+# from persim import PersistenceImager
+
+# con = np.load(d[111]["resized_img"])
+# # con = con[:50, :50]
+# phase = SelectPhaseFromSamplingMatrix([con], 3000)
+# x0, y0 = phase.select_specific_phase_as_xy(0)
+
+# data = np.stack([y0, x0], axis=1)
+# # data = np.flip(data)
+
+# rips = Rips()
+# dgms = rips.fit_transform(data)
+# H0_dgm = dgms[0]
+# H1_dgm = dgms[1]
+
+# plt.imshow(con, )
+# plt.figure(figsize=(4,4))
+# # plt.scatter(data[:,0], data[:,1], s=4)
+# plt.scatter(data[:,0], data[:,1], s=4)
+# plt.savefig("scatter_img.pdf")
+#%%
+
+plt.figure(figsize=(4,4))
+rips.plot(dgms, legend=False, show=False)
+# plt.savefig("persistence_diagram_h0_h1.pdf")
+# plt.title("Persistence diagram of $H_0$ and $H_1$")
+# plt.show()
+# p0 = PersistentDiagram(x0, y0)
+# hom00, hom10 = p0.get_persistent_image_info(plot=False)
+
+# p0.hom1_diagram
+
+# dd = np.expand_dims(dd, axis=-1)
+
+# plt.imshow(dd)
+# plt.savefig("../gallery/hom_img/hom1.pdf")
 
 #%%
-dd = np.load(d["persistent_img_path_hom0"])
-plt.plot(dd)
-plt.show()
 
-#%%
-dd = np.load(d["resized_img"])
-plt.imshow(dd)
-plt.colorbar()
-plt.show()
+# from photo_operation import convert_to_binary_img
+# dd = np.load(d[111]["resized_img"])
+# dd = convert_to_binary_img(dd)
+# plt.imshow(dd, cmap="gray")
+# plt.colorbar()
+# plt.savefig("../gallery/hom_img/img_binary.pdf")
+
+# plt.show()
 # dd = np.load(d["persistent_img_path_hom1"])[0]
 
 # coordinate_of_points = npMap(lambda x: [x[0], x[1]], res)

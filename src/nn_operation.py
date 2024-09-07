@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 def make_mini_lnn_block(input_x):
     input = Input(shape=input_x[0].shape)
     block = layers.Dense(
-        8, activation="relu", kernel_regularizer=regularizers.l2(0.01)
+        8, activation="relu", kernel_regularizer=regularizers.l2(0.005)
     )(input)
     return input, block
 
@@ -15,12 +15,27 @@ def make_mini_lnn_block(input_x):
 def make_lnn_block(input_x):
     input = Input(shape=input_x[0].shape)
     # a1 = layers.Flatten()(input)
-    block = layers.Dense(32, activation="relu")(input)
-    block = layers.Dense(64, activation="relu")(block)
-    block = layers.Dense(
-        128, activation="relu", kernel_regularizer=regularizers.l2(0.01)
-    )(block)
+    block = layers.Dense(64, activation="relu", kernel_regularizer=regularizers.l2(0.005))(input)
+    # block = layers.Dense(32, activation="relu")(block)
+    # block = layers.Dense( 16, activation="relu", kernel_regularizer=regularizers.l2(0.01))(block)
     # block = layers.Dense(10, activation='relu')(block)
+    block = layers.Flatten()(block)
+    return input, block
+
+def make_cnn_mini_block(input_x):
+    input = Input(shape=input_x[0].shape)
+    block = layers.Conv2D(32, (3, 3), activation="relu", padding="same")(input)
+    block = layers.MaxPooling2D((2, 2))(block)
+    block = layers.Conv2D(64, (3, 3), activation="relu", padding="same")(block)
+    block = layers.MaxPooling2D((2, 2))(block)
+    block = layers.Conv2D(
+        128,
+        (3, 3),
+        activation="relu",
+        padding="same",
+        kernel_regularizer=regularizers.l2(0.005),
+    )(block)
+    block = layers.MaxPooling2D((2, 2))(block)
     block = layers.Flatten()(block)
     return input, block
 
@@ -36,7 +51,15 @@ def make_cnn_block(input_x):
         (3, 3),
         activation="relu",
         padding="same",
-        kernel_regularizer=regularizers.l2(0.01),
+        kernel_regularizer=regularizers.l2(0.005),
+    )(block)
+    block = layers.MaxPooling2D((2, 2))(block)
+    block = layers.Conv2D(
+        256,
+        (2, 2),
+        activation="relu",
+        padding="same",
+        kernel_regularizer=regularizers.l2(0.005),
     )(block)
     block = layers.MaxPooling2D((2, 2))(block)
     block = layers.Flatten()(block)
@@ -46,12 +69,13 @@ def make_cnn_block(input_x):
 def make_lnn_combined_block(block_list, output_y):
     combined = layers.concatenate(block_list)
     # 全結合層を通じて最終的な出力を生成
-    z = layers.Dense(64, activation="relu")(combined)
-    z = layers.Dense(128, activation="relu")(combined)
-    z = layers.Dense(256, activation="relu", kernel_regularizer=regularizers.l2(0.01))(
+    # z = layers.Dense(256, activation="relu", kernel_regularizer=regularizers.l2(0.01))(combined)
+    # z = layers.Dense(128, activation="relu")(combined)
+    # z = layers.Dense(64, activation="relu", kernel_regularizer=regularizers.l2(0.01))(combined)
+    z = layers.Dense(16, activation="relu", kernel_regularizer=regularizers.l2(0.005))(
         combined
     )
-    z = layers.Dense(len(output_y[0]))(z)  # ここではバイナリ分類を例に
+    z = layers.Dense(len(output_y[0]))(z)
     return z
 
 
