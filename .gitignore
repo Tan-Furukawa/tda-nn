@@ -1,3 +1,16 @@
-result
+src/result
+src/result_12000
+src/result_const_c0_033333
+src/result_2d
+src/__pycache__
+src/summary/*
+
 __pycache__
 .mypy_cache
+
+tash/*
+
+test/__pycache__
+
+gallery/data
+natural_data
